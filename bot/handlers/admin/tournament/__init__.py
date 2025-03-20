@@ -6,6 +6,7 @@ from . import (
     create,
     settings,
     discipline,
+    download,
 )
 from bot.filters.admin import AdminFilter
 
@@ -16,6 +17,7 @@ def reg_routers(dp: Dispatcher):
         create,
         settings,
         discipline,
+        download,
     ]
     for handler in handlers:
         handler.router.message.filter(AdminFilter())

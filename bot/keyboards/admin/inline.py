@@ -97,6 +97,8 @@ def tournament_settings(data: TournamentCallbackData, status: Status):
         text='🔴 Остановить регистрацию' if status == Status.AVAILABLE else '🟢 Включить регистрацию',
         callback_data=data.pack()
     )
+    data.action = 'download'
+    builder.button(text='🌐 Скачать данные турнира', callback_data=data.pack())
     data.action = "delete"
     builder.button(text="🗑 Удалить", callback_data=data.pack())
     data.action = "main"
