@@ -2,6 +2,7 @@ from aiogram import types, Router, F
 from aiogram.filters import Command
 
 from bot import Cache
+from bot.filters.buttons import Button
 from bot.filters.dont_selected_language import DontSelectedLangFilter
 from bot.keyboards.user import inline, reply
 from config import config
@@ -18,6 +19,7 @@ async def send_message_with_language_buttons(
         reply_markup=inline.languages()
     )
 
+@router.message(Button('select-language'))
 @router.message(Command('lang'))
 async def send_message_with_language_buttons(
         message: types.Message,

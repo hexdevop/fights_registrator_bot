@@ -5,7 +5,6 @@ from pydantic import BaseModel
 class BotSettings(BaseModel):
     token: str
     skip_updates: bool
-    polling: bool
     username: str
     admins: list[int]
 
