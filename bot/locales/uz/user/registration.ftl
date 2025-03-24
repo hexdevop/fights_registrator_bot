@@ -1,56 +1,56 @@
-select-tournament = <i><b>🏆 Выберите один из турниров</></>
+select-tournament = <i><b>🏆 Turnirlardan birini tanlang</></>
 
 tournament-info =
     <i><b>{$name}</>
 
-    📅 Дата проведения - {$date}
-    🏢 Организатор - {$organizer}
-    👥 Возраст - {$age}</>
+    📅 Tadbir sanasi - {$date}
+    🏢 Tashkilotchi - {$organizer}
+    👥 Yosh - {$age}</>
 
-select-discipline = <i><b>🎯 Пожалуйста выберите дисциплину турнира</></>
+select-discipline = <i><b>🎯 Turnir intizomini tanlang</></>
 
-select-region = <i><b>🌍 Выберите ваш регион</></>
+select-region = <i><b>🌍 Mintaqangizni tanlang</></>
 
-get-initials = <i><b>👤 Введите ваше полное ФИО (Фамилия Имя Отчество) на латинице</></>
+get-initials = <i><b>👤 Lotin tilida to'liq ismingizni (familiyangizni, ismingizni, otasining ismini) kiriting</></>
 
-get-coach-initials = <i><b>👨‍🏫 Введите ваше полное ФИО вашего тренера (Фамилия Имя Отчество) на латинице</></>
+get-coach-initials = <i><b>👨‍🏫 Treneringizning to'liq ismini (familiyasi, ismi, otasining ismi) lotin tilida kiriting</></>
 
 get-age =
-    <i><b>📅 Введите вашу дату рождения в формате ГГГГ-ММ-ДД
-    Пример: 1999-10-23</></>
+    <i><b>📅 Iltimos, tug'ilgan kuningizni yil-oy-kun formatida kiriting
+    Misol: 1999-10-23</></>
 
-select-gender = <i><b>👫 Выберите свой пол</></>
+select-gender = <i><b>👫 Jinsingizni tanlang</></>
 
-select-weight = <i><b>⚖️ Выберите свою весовую категорию</></>
+select-weight = <i><b>⚖️ O'zingizning vazn toifangizni tanlang</></>
 
 confirm-registration =
-    <i><b>Проверьте введенные данные перед завершением регистрации:</>
+    <i><b>Ro'yxatdan o'tishni yakunlashdan oldin kiritilgan ma'lumotlarni tekshiring.:</>
 
-    🏆 Турнир: {$tournament}
-    🎯 Дисциплина: {$discipline}
-    🌍 Регион: {$region}
-    👤 ФИО: {$initials}
-    👨‍🏫 Тренер: {$coach_initials}
-    📅 Дата рождения: {$date}
-    👫 Пол: {$gender ->
-[1] 🤵‍♂️ Мужчина
-*[0] 🧍‍♀️ Женщина
+    🏆 Turnir: {$tournament}
+    🎯 Intizom: {$discipline}
+    🌍 Mintaqa: {$region}
+    👤 To'liq ism: {$initials}
+    👨‍🏫 Trener: {$coach_initials}
+    📅 Tug'ilgan kuni: {$date}
+    👫 Jins: {$gender ->
+[1] 🤵‍♂️ Erkak
+*[0] 🧍‍♀️ Ayol
 }
-    ⚖️ Весовая категория: {$weight}</>
+    ⚖️ Og'irlik toifasi: {$weight}</>
 
-you-was-registered = <i>Регистрация успешно завершена! ✅</>
+you-was-registered = <i>Roʻyxatdan oʻtish muvaffaqiyatli yakunlandi! ✅</>
 
 # ERRORS
 
-tournament-stopped = ❌ Регистрация на этот турнир закончена либо закрыта
+tournament-stopped = ❌ Ushbu turnir uchun ro'yxatga olish yopiq yoki yopiq.
 
 incorrect-age =
-    <i><b>❌ Некорректная дата</>
-    Пожалуйста, введите дату в формате ГГГГ-ММ-ДД
-    Пример: 1999-10-23</>
+    <i><b>❌ Noto'g'ri sana</>
+    Iltimos, tug'ilgan kuningizni yil-oy-kun formatida kiriting
+    Misol: 1999-10-23</>
 
 age-limit =
-    <i><b>❌ Ваш возраст не соответствует требованиям турнира</>
-    Турнир предназначен лицам от {$min_age} до {$max_age} лет
-    Регистрация отменена</>
+    <i><b>❌ Sizning yoshingiz turnir talablariga javob bermaydi</>
+    Turnir {$min_age} dan {$max_age} yoshgacha bo‘lganlar uchun mo‘ljallangan
+    Roʻyxatdan oʻtish bekor qilindi</>
 

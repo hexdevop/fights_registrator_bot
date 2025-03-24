@@ -1,11 +1,11 @@
 # b - button
 
-back = Назад 🔙
-cancel = 🚫 Отмена
-im-subscribed = Я подписался ✅
+back = Orqaga 🔙
+cancel = 🚫 Bekor qilish
+im-subscribed = Men obuna bo'ldim ✅
 
-b-register-to-tournament = 📝 Зарегестрироваться
-b-male = 🤵‍♂️ Мужчина
-b-female = 🧍‍♀️ Женщина
-b-correct = ✅ Все верно
-b-restart = 🔄 Заново
+b-register-to-tournament = 📝 Roʻyxatdan oʻtish
+b-male = 🤵‍♂️ Erkak
+b-female = 🧍‍♀️ Ayol
+b-correct = ✅ Hammasi to'g'ri
+b-restart = 🔄 Qayta otish

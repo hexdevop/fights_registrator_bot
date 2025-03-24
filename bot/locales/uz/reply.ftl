@@ -1,2 +1,2 @@
-register = Пройти регистрацию 📝
-select-language = 🇷🇺 / 🇺🇿 Выбрать язык
+register = Ro‘yxatdan o‘tish 📝
+select-language = 🇷🇺 / 🇺🇿 Tilni tanlash
