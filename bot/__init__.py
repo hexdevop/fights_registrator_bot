@@ -19,7 +19,7 @@ bot = Bot(
 
 storage = RedisStorage(Redis(host=config.redis.host, db=config.redis.state))
 
-languages = fluent_loader.get_fluent_localization()
+languages = fluent_loader.get_fluent_localization(languages=['ru', 'uz'])
 
 cache = Cache(Redis(host=config.redis.host, db=config.redis.cache), languages)
 

@@ -17,6 +17,7 @@ class LanguageMiddleware(BaseMiddleware):
             cache: Cache = data["cache"]
             lang = await cache.get_language(chat.id, lang_only=True)
             data['lang'] = lang
+            print(lang)
             if lang:
                 data["l10n"] = cache.get_l10n(lang)
         except KeyError:

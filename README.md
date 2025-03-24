@@ -15,8 +15,8 @@
 1. Клонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/hexdevop/template.git
-   cd template
+   git clone https://github.com/hexdevop/fights_registrator_bot.git
+   cd fights_registrator_bot
    ```
 
 2. Создайте и активируйте виртуальное окружение:
